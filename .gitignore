@@ -65,8 +65,12 @@ project.lock.json
 project.fragment.lock.json
 artifacts/
 
-# json files
-.json
+# Ignore all JSON files
+*.json
+
+# Ignore the .containers folder
+.containers/
+
 
 # Tye
 .tye/
